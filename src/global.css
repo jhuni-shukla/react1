@@ -1,0 +1,30 @@
+/* .c-page styling */
+.c-page {
+    width: 50%;
+    height: 500px;
+    background-color: #9d2929; /* Red background color */
+    padding: 20px;
+    color: white; /* Text color for better contrast */
+    border-radius: 10px; /* Round corners for a nicer look */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.c-page h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.c-page p {
+    font-size: 18px;
+    color: #ddd;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    border-radius: 5px;
+}
